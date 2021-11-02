@@ -1,0 +1,11 @@
+export { default as Header } from "./Header/Header";
+export { default as Footer } from "./Footer/Footer";
+export { default as MainPage } from "./MainPage/MainPage";
+export { default as MyArticles } from "./MyArticles/MyArticles";
+export { default as Article } from "./Article/Article";
+export { default as LogIn } from "./LogIn/LogIn";
+export { default as SingIn } from "./SingIn/SingIn";
+export { default as Profile } from "./Profile/Profile";
+export { default as AddArticle } from "./AddArticle/AddArticle";
+export { default as ProtectedRoute } from "./ProtectedRoute/ProtectedRoute";
+export { default as NoMatch } from "./NoMatch/NoMatch";

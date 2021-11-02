@@ -1,0 +1,129 @@
+@import 'assets/libs/normalize';
+
+.all-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1075px;
+    width: 100%;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.tag {
+    padding: 7px 12px;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    line-height: 12px;
+    color: #8C8C8C;
+    background: #F7F7F7;
+    border-radius: 118px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+.user-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #8C8C8C;
+}
+.user-info {
+    margin: 0 24px;
+    span {
+        font-size: 12px;
+        line-height: 12px;
+        color: #8C8C8C;
+    }
+}
+.user-views {
+    display: flex;
+    align-items: center;
+    img {
+        width: 20px;
+        height: 14px;
+        margin-right: 8px;
+    }
+    span {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 12px;
+        color: #8C8C8C;
+    }
+}
+
+.disabled-btn {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.form {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    &__label {
+        display: block;
+        margin-bottom: 12px;
+        font-size: 14px;
+        line-height: 14px;
+        color: #242424;
+    }
+    &__input {
+        width: 100%;
+        border: 1px solid #8C8C8C;
+        padding: 12px;
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    &__error {
+        display: block;
+        font-size: 11px;
+        line-height: 14px;
+        color: #CF4949;
+    }
+    p:not(:nth-child(1)) {
+        margin-top: 20px;
+    }
+    &__button {
+        width: 100%;
+        margin-top: 30px;
+        padding: 20px 0;
+        font-size: 16px;
+        line-height: 15px;
+        color: #FFFFFF;
+        background: #242424;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.not_visible {
+    display: none;
+    //visibility: hidden;
+}
+
+.error {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #F01E19;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
